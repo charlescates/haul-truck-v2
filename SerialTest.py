@@ -6,5 +6,5 @@ serialPort.timeout = 1
 print(serialPort.name)
 serialPort.write(b'test\n')
 sleep(1)
-thing = serialPort.readline()
+thing = serialPort.read(1)
 print(thing)
