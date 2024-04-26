@@ -6,10 +6,6 @@ frontLeftMotor = Motor(forward=17, backward=27)
 frontRightMotor = Motor(forward=23, backward=24)
 backLeftMotor = Motor(forward=6, backward=13)
 backRightMotor = Motor(forward=16, backward=20)
-frontLeftMotor.enable()
-frontRightMotor.enable()
-backLeftMotor.enable()
-backRightMotor.enable()
 
 # Functions
 def goForward():
