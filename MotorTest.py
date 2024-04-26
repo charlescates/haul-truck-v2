@@ -2,10 +2,10 @@ from gpiozero import Motor
 from time import sleep
 
 # Declare motors
-frontLeftMotor = Motor(forward=17, backward=27)
-frontRightMotor = Motor(forward=23, backward=24)
-backLeftMotor = Motor(forward=6, backward=13)
-backRightMotor = Motor(forward=16, backward=20)
+frontLeftMotor = Motor(17, 27)
+frontRightMotor = Motor(23, 24)
+backLeftMotor = Motor(6, 13)
+backRightMotor = Motor(16, 20)
 
 # Functions
 def goForward():
