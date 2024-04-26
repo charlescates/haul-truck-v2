@@ -39,5 +39,5 @@ def goStop():
     backRightMotor.stop()
 
 goForward()
-sleep(0.5)
+sleep(5)
 goStop()
