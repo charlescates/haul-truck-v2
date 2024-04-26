@@ -39,11 +39,5 @@ def goStop():
     backRightMotor.stop()
 
 goForward()
-print(backLeftMotor)
 sleep(2)
 goStop()
-print(backLeftMotor)
-
-backLeftMotor.forward()
-sleep(1)
-backLeftMotor.stop()
