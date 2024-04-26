@@ -9,7 +9,7 @@ backRightMotor = Motor(foward=16, backward=20)
 
 # Functions
 def forward():
-    frontLeftMotor.foward()
+    frontLeftMotor.forward()
     frontRightMotor.forward()
     backLeftMotor.forward()
     backRightMotor.forward()
@@ -21,7 +21,7 @@ def backward():
     backRightMotor.backward()
 
 def left():
-    frontLeftMotor.foward()
+    frontLeftMotor.forward()
     frontRightMotor.backward()
     backLeftMotor.forward()
     backRightMotor.backward()
