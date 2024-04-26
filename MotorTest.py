@@ -1,5 +1,5 @@
 from gpiozero import Motor
-from time import Sleep
+from time import sleep
 
 # Declare motors
 frontLeftMotor = Motor(foward=17, backward=27)
