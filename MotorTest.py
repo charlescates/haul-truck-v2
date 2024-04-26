@@ -8,36 +8,36 @@ backLeftMotor = Motor(forward=6, backward=13)
 backRightMotor = Motor(forward=16, backward=20)
 
 # Functions
-def forward():
+def goForward():
     frontLeftMotor.forward()
     frontRightMotor.forward()
     backLeftMotor.forward()
     backRightMotor.forward()
 
-def backward():
+def goBackward():
     frontLeftMotor.backward()
     frontRightMotor.backward()
     backLeftMotor.backward()
     backRightMotor.backward()
 
-def left():
+def goLeft():
     frontLeftMotor.forward()
     frontRightMotor.backward()
     backLeftMotor.forward()
     backRightMotor.backward()
 
-def right():
+def goRight():
     frontLeftMotor.backward()
     frontRightMotor.forward()
     backLeftMotor.backward()
     backRightMotor.forward()
 
-def stop():
+def goStop():
     frontLeftMotor.stop()
     frontRightMotor.stop()
     backLeftMotor.stop()
     backRightMotor.stop()
 
-forward()
+goForward()
 sleep(0.5)
-stop()
+goStop()
